@@ -96,5 +96,5 @@ _файл [parse.sh](parse.sh):_
 
 ```out4
 MAILTO=<*******@yandex.ru>
-0 * * * * --lockfile=/tmp/parse.lockrun --  sh /home/HomeWorkBash/scriptXip.sh
+0 * * * * /usr/local/bin/lockrun --lockfile=/tmp/parse.lockrun --sh /home/HomeWorkBash/parse.sh | mail -s 'test' ***@yandex.ru
 ```
