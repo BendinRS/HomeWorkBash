@@ -95,6 +95,5 @@ _файл [parse.sh](parse.sh):_
 Конфиг крона:
 
 ```out4
-MAILTO=<*******@yandex.ru>
 0 * * * * /usr/local/bin/lockrun --lockfile=/tmp/parse.lockrun --sh /home/HomeWorkBash/parse.sh | mail -s 'test' ***@yandex.ru
 ```
