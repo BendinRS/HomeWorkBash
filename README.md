@@ -90,6 +90,6 @@ error output from 14/Aug/2019:04:12:10 to 15/Aug/2019:00:25:46:
 
 _файл [parse.sh](parse.sh):_
 
-Настраиваем cron и postfix. Воспользовался статьей https://grishaev.me/cron-mail/
+Настраиваем cron и postfix. Воспользовался статьей https://www.dmosk.ru/miniinstruktions.php?mini=postfix-over-yandex
 
 
